@@ -37,6 +37,7 @@ $grey: #343434;
 }
 
 .banner1 {
+    cursor: auto;
     font-family: $normal;
     padding: 60px 0;
     background-image: url(../assets/banner1-bg.png);
@@ -52,6 +53,7 @@ $grey: #343434;
     }
 
     .title{
+        cursor: auto;
         font-size: 40px;
         font-weight: bold;
         text-transform: uppercase;
@@ -67,6 +69,7 @@ $grey: #343434;
         }
     }
     .subtitle{
+        cursor: auto;
         font-size: 24px;
         font-weight: 700;
         text-transform: uppercase;
@@ -80,6 +83,7 @@ $grey: #343434;
 
     }
     .detail{
+        cursor: auto;
         font-size: 20px;
         color: $grey;
         line-height: 1.2;
@@ -123,6 +127,7 @@ $grey: #343434;
     
     //.banner1__subtitle__container 
     &__subtitle__container {
+        cursor: auto;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -161,6 +166,7 @@ $grey: #343434;
 }
   
 .banner2 {
+    cursor: auto;
     font-family: $normal;
     padding: 110px 0;
     position: relative;
@@ -189,6 +195,7 @@ $grey: #343434;
         z-index: 2;
     }
     .title{
+        cursor: auto;
         font-size: 32px;
         color: rgb(255, 255, 255);
         font-weight: 700;
@@ -210,6 +217,7 @@ $grey: #343434;
         }
 
         span{
+            cursor: auto;
             font-weight: 800;
         }
     }
@@ -231,6 +239,7 @@ $grey: #343434;
         }
 
         li{
+            cursor: auto;
             font-weight: 600;
             font-size: 18px;
             text-transform: uppercase;
@@ -266,6 +275,7 @@ $grey: #343434;
 }
 
 .banner3 {
+    cursor: auto;
     font-family: $normal;
     padding: 35px 0;
 
@@ -279,6 +289,7 @@ $grey: #343434;
     }
 
     .title{
+        cursor: auto;
         font-size: 30px;
         font-weight: 700;
         text-transform: uppercase;
@@ -295,6 +306,7 @@ $grey: #343434;
         }
     }
     .subtitle{
+        cursor: auto;
         font-size: 24px;
         line-height: 1.2;
         text-align: left;
