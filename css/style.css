@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  height: unset !important;
+}
+
+.wrapper {
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+._container {
+  max-width: 94%;
+  margin: 0 auto;
+}
+
+.banner1 {
+  font-family: "Montserrat", sans-serif;
+  padding: 60px 0;
+  background-image: url(../assets/banner1-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 635px) {
+  .banner1 {
+    background-position: 75% center;
+  }
+}
+@media screen and (max-width: 390px) {
+  .banner1 {
+    background-position: 70% center;
+  }
+}
+.banner1 .title {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 750px) {
+  .banner1 .title {
+    font-size: 35px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+}
+.banner1 .subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  letter-spacing: 1.5px;
+}
+@media screen and (max-width: 750px) {
+  .banner1 .subtitle {
+    line-height: 1;
+    font-size: 20px;
+  }
+}
+.banner1 .detail {
+  font-size: 20px;
+  color: #343434;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 750px) {
+  .banner1 .detail {
+    font-size: 15px;
+    line-height: 1;
+  }
+}
+.banner1__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 635px) {
+  .banner1__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+.banner1__text__container {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 340px;
+          flex: 0 0 340px;
+  margin-right: 20px;
+  margin-left: 25px;
+}
+@media screen and (max-width: 750px) {
+  .banner1__text__container {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 290px;
+            flex: 0 0 290px;
+  }
+}
+@media screen and (max-width: 635px) {
+  .banner1__text__container {
+    -webkit-box-flex: unset;
+        -ms-flex: unset;
+            flex: unset;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+.banner1__subtitle__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 70px;
+}
+@media screen and (max-width: 750px) {
+  .banner1__subtitle__container {
+    margin-bottom: 50px;
+  }
+}
+.banner1__logo {
+  margin: 10px 0;
+  max-width: 250px;
+  width: 100%;
+}
+@media screen and (max-width: 750px) {
+  .banner1__logo {
+    max-width: 180px;
+  }
+}
+.banner1__logo img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.banner1__picture {
+  max-width: 487px;
+  width: 100%;
+}
+.banner1__picture img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner2 {
+  font-family: "Montserrat", sans-serif;
+  padding: 110px 0;
+  position: relative;
+  background-image: url(../assets/banner2-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+@media screen and (max-width: 740px) {
+  .banner2 {
+    padding: 60px 0;
+  }
+}
+.banner2 .banner2__bg__dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(33, 33, 33, 0.65);
+}
+.banner2 .banner2__wrapper {
+  position: relative;
+  z-index: 2;
+}
+.banner2 .title {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  max-width: 635px;
+  margin: 0 auto 30px;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 740px) {
+  .banner2 .title {
+    font-size: 27px;
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .banner2 .title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+.banner2 .title span {
+  font-weight: 800;
+}
+.banner2 .packages {
+  max-width: 470px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (max-width: 530px) {
+  .banner2 .packages {
+    max-width: 340px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .banner2 .packages {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: unset;
+  }
+}
+.banner2 .packages li {
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  line-height: 2;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.5px;
+}
+@media screen and (max-width: 740px) {
+  .banner2 .packages li {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .banner2 .packages li {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .banner2 .packages li {
+    width: 105px;
+  }
+}
+.banner2 .packages li::before {
+  content: "";
+  background-color: #00AFEF;
+  width: 12px;
+  height: 11px;
+  margin-right: 12px;
+}
+
+.banner3 {
+  font-family: "Montserrat", sans-serif;
+  padding: 35px 0;
+  background-image: url(../assets/banner3-bg-v2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.banner3 ._container {
+  max-width: 81%;
+}
+.banner3 .title {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 75px;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 680px) {
+  .banner3 .title {
+    margin-bottom: 35px;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 635px) {
+  .banner3 .title {
+    margin-bottom: 20px;
+  }
+}
+.banner3 .subtitle {
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: left;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+@media screen and (max-width: 680px) {
+  .banner3 .subtitle {
+    font-size: 18px;
+  }
+}
+.banner3__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 635px) {
+  .banner3__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+.banner3__text__container {
+  max-width: 330px;
+  margin-right: 30px;
+}
+@media screen and (max-width: 635px) {
+  .banner3__text__container {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+.banner3__picture {
+  max-width: 273px;
+}
+.banner3__picture img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
